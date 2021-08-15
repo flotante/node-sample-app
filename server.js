@@ -8,7 +8,7 @@ app.use(json());
 // parse requests of content-type - application/x-www-form-urlencoded
 app.use(urlencoded({ extended: true }));
 
-// simple route
+// My Simple Route
 app.get("/", (req, res) => {
   res.json({ message: "Welcome to Node sample application." });
 });
